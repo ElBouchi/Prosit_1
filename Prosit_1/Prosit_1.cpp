@@ -40,11 +40,11 @@ int main()
     cout << "Entrez les coordoonees du point A : \n";
     cin >> Xa >> Ya;
     cout << "Les coordoonees du point A sont : \n";
-    cout << Xa << "," << Ya << "\n";
+    cout << "(" << Xa << "," << Ya << ")" << "\n";
     cout << "Entrez les coordonnees du point B : \n";
     cin >> Xb >> Yb;
     cout << "Les coordoonees du point B sont : \n";
-    cout << Xb << "," << Yb << "\n";
+    cout << "(" << Xb << "," << Yb << ")" << "\n";
 
     Eucl.Xa = Xa, Eucl.Xb = Xb, Eucl.Ya = Ya, Eucl.Yb = Yb;
     Tcheb.Xa = Xa, Tcheb.Xb = Xb, Tcheb.Ya = Ya, Tcheb.Yb = Yb;
